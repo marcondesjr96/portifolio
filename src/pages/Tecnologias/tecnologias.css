@@ -1,0 +1,44 @@
+.tecnologias-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+}
+.tec-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 75%;
+    padding-left: 10%;
+    margin-top: 70px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid rgb(61, 115, 241);
+    box-shadow: rgb(61 115 241) 0px 0px 5px;
+    margin-top: 40px;
+    margin: 25px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.box:hover{
+    box-shadow: rgb(20 157 208) 0px 0px 15px;
+    transform: scale(1.1);
+    background-color: rgba(53, 54, 141, 0.15);
+    
+    
+}
+.img-box{
+    width: 90px;
+}

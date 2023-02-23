@@ -1,0 +1,35 @@
+*{
+    color: white;
+}
+.container-about{
+    text-align:start;
+}
+.perfil{
+    width: 20%;
+    height: auto;
+    border-radius: 20%;
+    display: flex;
+    margin: 100px 100px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.9);
+    transition: transform 0.3s ease-in-out;
+}
+.perfil:hover{
+    transform: scale(1.1);
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.my-name{
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight:lighter;
+    width: 80%;
+}
+.text{
+    padding-top: 90px;
+}
